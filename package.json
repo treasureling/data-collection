@@ -1,0 +1,33 @@
+{
+  "name": "data-collection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"./node_modules/.bin/gitbook build && mv _book docs",
+    "serve":"./node_modules/.bin/gitbook serve ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treasureling/data-collection.git"
+  },
+  "author": "",
+  "dependencies": {
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-code-demo": "^1.0.0",
+    "gitbook-plugin-code-editor": "^1.2.1",
+    "gitbook-plugin-codeex": "^0.0.4",
+    "gitbook-plugin-toggle-chapters": "0.0.3",
+    "showdown": "^1.5.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treasureling/data-collection/issues"
+  },
+  "homepage": "https://github.com/treasureling/data-collection#readme"
+}
